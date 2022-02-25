@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  font-family: 'Hind', sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #35a22c;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+/* common */
+.heading {
+  max-width: 750px;
+}
+
+.heading h2 {
+  color: #1a1d2d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 8px;
+}
+
+.heading p {
+  color: #585858;
+  font-size: 16px;
+  margin: 16px 0;
+}
